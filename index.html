@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>First HTML Form</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h2>Already Registered? <u>LOGIN</u> Now</h2>
+			<form action="" method="post" target="_blank" id="form1">
+				<label for="email">Email </label>
+				<input
+					type="email"
+					id="email"
+					placeholder="abc@gmail.com"
+					required
+				/>
+				<label for="password">Password </label>
+				<input type="password" id="password" required />
+				<button type="submit">
+					<img
+						src="https://raw.githubusercontent.com/Ayush-Kanduri/The-Social-Book/master/assets/images/favicon.png"
+						alt="logo"
+						height="10px"
+						width="10px"
+					/>
+					Login
+				</button>
+			</form>
+			<br />
+			<hr />
+		</header>
+
+		<br />
+		<br />
+
+		<main>
+			<section>
+				<h3>
+					<a href="https://ayush-kanduri.github.io/Blog-Page"
+						>The Social Book Blogs</a
+					>
+				</h3>
+				<img
+					src="https://github.com/Ayush-Kanduri/The-Social-Book/blob/master/assets/images/coffee.jpg?raw=true"
+					alt="banner"
+					width="70%"
+				/>
+				<br /><br />
+				<hr />
+			</section>
+
+			<br />
+			<br />
+
+			<section>
+				<h2><u>REGISTRATION</u></h2>
+				<form action="" method="post" target="_blank">
+					<table>
+						<tr>
+							<td>
+								<label for="fname">First Name: </label
+								>&emsp;&emsp;&emsp;
+							</td>
+							<td><input type="text" id="fname" required /></td>
+						</tr>
+						<tr>
+							<td>
+								<label for="lname">Last Name: </label>&emsp;&emsp;&emsp;
+							</td>
+							<td><input type="text" id="lname" required /></td>
+						</tr>
+						<tr>
+							<td rowspan="3">Current Address:</td>
+							<td><label for="houseno">Flat No./House No. </label></td>
+							<td><input type="number" id="houseno" required /></td>
+						</tr>
+						<tr>
+							<td><label for="locality">Locality</label></td>
+							<td><input type="text" id="locality" required /></td>
+						</tr>
+						<tr>
+							<td><label for="city">City </label></td>
+							<td><input type="city" id="city" required /></td>
+						</tr>
+						<tr>
+							<td colspan="3">
+								<b>Is Current address and Permanent address same?</b>
+								<input
+									type="radio"
+									id="Yes"
+									name="address"
+									value="Yes"
+									checked
+								/>
+								<label for="Yes">Yes</label>
+								<input type="radio" id="No" name="address" value="No" />
+								<label for="No">No</label>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="email">Email: </label>&emsp;&emsp;&emsp;
+							</td>
+							<td>
+								<input
+									type="email"
+									id="email"
+									placeholder="abc@gmail.com"
+									required
+								/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="password">Password: </label
+								>&emsp;&emsp;&emsp;
+							</td>
+							<td><input type="password" id="password" required /></td>
+						</tr>
+						<tr>
+							<td>
+								<br />
+								<input type="submit" value="Register" />
+							</td>
+						</tr>
+					</table>
+				</form>
+			</section>
+		</main>
+	</body>
+</html>
